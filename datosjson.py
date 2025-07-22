@@ -1,6 +1,7 @@
 import json
 
-ruta ='C:/Users/Cristopher Cornejo/Documents/Virtual Machines/DEVASC/myfile.json'
+#ruta ='C:/Users/Cristopher Cornejo/Documents/Virtual Machines/DEVASC/myfile.json'
+ruta = '/home/devasc/labs/devnet-src/parsing/myfile.json'
 
 with open(ruta, 'r') as ourjson:
     json_file=json.load(ourjson)
